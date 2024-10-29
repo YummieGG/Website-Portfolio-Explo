@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* General body styling */
+body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background-image: url("background_white.png");
+}
+
+/* Navigation bar */
+.topnav {
+    display: flex;
+    background-color: #c140e5;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image_fonts {
+    margin-left: 10px;
+    width: 210px;
+    height: 75px;
+}
+
+.top-bar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.topnav a:hover {
+    background-color: #cd55c5;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #701889;
+    color: white;
+}
+
+/* Introduction section */
+.introduce-box {
+    display: flex;
+    column-gap: 10px;
+    margin: 200px 40px 0;
+}
+
+.introduce-img-face {
+    display: flex;
+    margin-left: 25px;
+}
+
+.introduce-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.introduce-text h2 {
+    font-size: 1.25em;
+    font-weight: 100;
+    margin: 0.83em 0 25px 520px;
+}
+
+.text_name {
+    margin-left: 250px;
+    text-align: right;
+    font-size: 60px;
+    font-weight: 600;
+    color: #c140e5;
+    line-height: 0;
+    margin: 0.25em 0;
+    letter-spacing: 0.07em;
+}
+
+.text_name:hover {
+    color: #f4e795;
+}
+
+.box-under-name {
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.text-under-name {
+    margin: 25px 25px 0 270px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #555;
+}
+
+/* About section */
+.about-box {
+    margin-top: 575px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-start-text {
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 0.85em;
+    color: #555;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}
+
+.about-text-box {
+    margin: 0;
+    margin-left: 80px;
+    padding: 0px 30px;
+    width: 1450px;
+}
+
+.about-text,
+.about-text span {
+    text-align: center;
+    font-size: 25px;
+}
+.about-text2{
+    font-size: 25px;
+    color: #555;
+}
+/* Education Section */
+.education-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    
+}
+.education{
+    display: flex;
+    padding: 0px 100px;
+
+}
+.school-logo{
+    width: 150px;
+    height: 150px;
+}
+.education-text{
+    margin: 0px;
+    font-size: 30px;
+}
+.education-text-mini{
+    margin: 0px;
+    font-size: 20px;
+}
+/* Under About section */
+.under-about-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+.skill-text{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1em;
+    color: #555;
+    letter-spacing: 0.05em;
+}
+.skill-mini-text{
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    margin-left: 10px;
+}
+.skill-logo{
+    width: 75px;
+    height: 75px;
+}
+.custom-line-180 {
+    border: none;
+    border-top: 2px solid #000000;
+    width: 87%;
+    margin: 0px auto;
+    opacity: 0.3;
+}
+.custom-line-90 {
+    border: none;
+    width: 2px; /* Thickness of the line */
+    height: 120px; /* Length of the line */
+    background-color: #000000; /* Color of the line */
+    margin: auto 0px; /* Centers the line horizontally */
+    opacity: 0.3; /* Optional: adjust transparency */
+}
+.contact-box{
+    margin-top: 100px;
+    padding: 0px 50px;
+
+}
+
+.footer {
+    background-color: #333;
+    color: #f4e795;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.footer-section {
+    margin: 20px 0;
+}
+
+.footer-section h2 {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #c140e5;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #f4e795;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #c140e5;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* General text styling */
+p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
